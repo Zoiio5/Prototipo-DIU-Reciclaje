@@ -45,5 +45,7 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>La aplicación necesita acceder a tu ubicación para mostrar puntos de reciclaje cercanos en el mapa.</string>
 </dict>
 </plist>

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:puntolimpio/screens/mapa_screen.dart';
+import 'package:puntolimpio/screens/map_realtime.dart';
 import 'package:puntolimpio/screens/guide_screen.dart';
 import 'package:puntolimpio/screens/alertas_screen.dart';
 
@@ -36,7 +36,7 @@ class _AppShellState extends State<AppShell> {
   int _selectedIndex = 0;
 
   static const List<Widget> _pages = <Widget>[
-    MapaScreen(),
+    RealTimeMapPage(),
     GuideScreen(),
     AlertasScreen(),
   ];
